@@ -1,9 +1,8 @@
 import os
-import shutil
 import xml.etree.ElementTree as ET
 
 path = r'H:\label\2\label'
-
+# change name
 files = sorted(os.listdir(path))
 for file in files:
     file_path = os.path.join(path,file)
